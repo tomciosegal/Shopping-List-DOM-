@@ -52,3 +52,57 @@ h1,h2{
     display:inline-block;
 }
 
+#add-item{
+    width: 420px;
+    margin: 0 auto;
+}
+
+#add-item input{
+    width: 300px;
+    display: block;
+    margin:  20px 0px 0px 0px;
+    padding: 0.5rem;
+    border: 1px solid rgb(216, 216, 216);
+    font-size: 1rem;
+    border-radius: 2px 0 0 2px;
+    float: left;
+}
+
+#add-item button{
+    width: 100px;
+    cursor: pointer;
+    color: #fff;
+    background: #32c77d;
+    padding: 0.5rem 20px;
+    border: 1px solid lightgreen;
+    font-size: 1rem;
+    margin: 20px 0 0 0;
+}
+
+#grocery-list{
+    margin: 2rem;
+}
+
+#grocery-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+#grocery-list li{
+    padding: 1rem;
+    border-left: 5px solid rgb(211, 211, 211);
+    margin:1.5rem 1rem;
+}
+
+.delete{
+    float:right;
+    background: red;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    color:#fff;
+}
+
+.delete:hover{
+    background: black;
+}
