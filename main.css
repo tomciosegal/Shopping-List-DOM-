@@ -106,3 +106,7 @@ h1,h2{
 .delete:hover{
     background: black;
 }
+
+.hide {
+    display: none;
+}
